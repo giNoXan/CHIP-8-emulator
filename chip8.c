@@ -1,8 +1,11 @@
 #include <stdio.h>
-#include "SDL.h"
+#include <stdbool.h>
+#include <SDL2/SDL.h>
+
+typedef struct {
+    SDL_Window *window;
+    SDL_Renderer *window;
+} Chip8;
 
 int main(int argc, char **argv) {
-    (void)argc;
-    (void)argv;
-    puts("Hello World\n");
 }
